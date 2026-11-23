@@ -8,7 +8,7 @@ An end-to-end machine learning project using the **German Credit Dataset** to cl
 - **Dataset:** German Credit Dataset
 - **Records:** 1,000 applicants
 - **Target distribution:** 700 Good Risk (70%) / 300 Bad Risk (30%)
-- **Models:** Decision Tree, Random Forest, Extra Trees, XGBoost
+- **Models:** Decision Tree, Random Forest, Extra Trees, XGBoost, Logistic Regression
 - **Final selected model:** Random Forest
 - **Deployment:** Streamlit web application
 
@@ -88,7 +88,9 @@ Models were evaluated on a held-out test set of 200 records using accuracy, prec
 | Random Forest | **73.5%** | **0.7714** |
 | XGBoost | 73.5% | 0.7525 |
 | Extra Trees | 71.5% | — |
+| Logistic Regression | 68.5% | 0.736 |
 | Decision Tree | 66.5% | — |
+
 
 ### Confusion Matrices
 
